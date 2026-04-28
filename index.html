@@ -128,31 +128,54 @@
         </div>
     </section>
 
-    <section id="portfolio" class="py-5 bg-white">
-        <div class="container py-5">
-            <h2 class="text-center mb-5 fw-light">PORTFOLIO</h2>
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="card border-0 shadow-sm rounded-0 project-card">
-                        <img src="assets/projekt1.webp" class="card-img-top rounded-0" alt="Projekt 1" loading="lazy">
-                        <div class="card-body p-4">
-                            <h5 class="card-title">Min CV-Webbplats</h5>
-                            <p class="card-text text-secondary">Ett projekt skapat med HTML, CSS och Bootstrap 5 för att visa min digitala profil.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card border-0 shadow-sm rounded-0 project-card">
-                        <img src="assets/projekt2.webp" class="card-img-top rounded-0" alt="Projekt 2" loading="lazy">
-                        <div class="card-body p-4">
-                            <h5 class="card-title">Lagar och Regler</h5>
-                            <p class="card-text text-secondary">En informativ webbsida om GDPR och etik på nätet.</p>
+   <section id="portfolio" class="py-5 bg-white">
+    <div class="container py-5">
+        <h2 class="text-center mb-5 fw-light tracking-wide">PORTFOLIO</h2>
+        <div class="row g-4">
+            
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-0 project-card h-100">
+                    <img src="Bilder/nedladdning.webp" class="card-img-top rounded-0" alt="Webbplats om nätetik" loading="lazy"
+                    style="cursor: zoom-in;" data-bs-toggle="modal" data-bs-target="#modalProj1-1">
+                    <img src="Bilder/nedladdning (1).webp" class="card-img-top rounded-0" alt="Webbplats om nätetik" loading="lazy"
+                    style="cursor: zoom-in;" data-bs-toggle="modal" data-bs-target="#modalProj1-2">
+                    <div class="card-body p-4">
+                        <h5 class="card-title fw-bold">Lagar, Regler & Etik</h5>
+                        <p class="card-text text-secondary">
+                            En omfattande webbguide om juridiska krav och god sed på internet. Webbplatsen täcker ämnen som upphovsrätt (Creative Commons), GDPR och netikett. 
+                        </p>
+                        <div class="mt-3">
+                            <span class="badge border text-dark fw-normal bg-light">HTML/CSS</span>
+                            <span class="badge border text-dark fw-normal bg-light">UI/UX</span>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-0 project-card h-100">
+                    <img src="Bilder/nedladdning (2).webp" class="card-img-top rounded-0" alt="Webbplats om andra världskriget" loading="lazy" 
+                    style="cursor: zoom-in;" data-bs-toggle="modal" data-bs-target="#modalProj2-1">
+                    <img src="Bilder/nedladdning (3).webp" class="card-img-top rounded-0" alt="Webbplats om andra världskriget" loading="lazy"
+                    style="cursor: zoom-in;" data-bs-toggle="modal" data-bs-target="#modalProj2-2">
+                    <div class="card-body p-4">
+                        <h5 class="card-title fw-bold">Historia: Andra Världskriget</h5>
+                        <p class="card-text text-secondary">
+                            Ett utbildningsprojekt som sammanfattar de viktigaste händelserna under andra världskriget.
+                            Fokus låg på att skapa en tidslinje som är lätt att navigera och som presenterar historiska fakta på ett engagerande sätt.
+                        </p>
+                        <div class="mt-3">
+                            <span class="badge border text-dark fw-normal bg-light">JavaScript DOM</span>
+                            <span class="badge border text-dark fw-normal bg-light">Semantisk HTML</span>
+                            <span class="badge border text-dark fw-normal bg-light">Navigering</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <section id="kontakt" class="py-5 bg-light">
         <div class="container py-5">
@@ -184,5 +207,49 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
+
+<div class="modal fade" id="modalProj1-1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content rounded-0 border-0">
+            <div class="modal-body p-0">
+                <button type="button" class="btn-close position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                <img src="Bilder/nedladdning.webp" class="img-fluid w-100" alt="Projekt 1 stor">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalProj1-2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content rounded-0 border-0">
+            <div class="modal-body p-0">
+                <button type="button" class="btn-close position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                <img src="Bilder/nedladdning (1).webp" class="img-fluid w-100" alt="Projekt 1 stor">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalProj2-1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content rounded-0 border-0">
+            <div class="modal-body p-0">
+                <button type="button" class="btn-close position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                <img src="Bilder/nedladdning (2).webp" class="img-fluid w-100" alt="Projekt 2 stor">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalProj2-2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content rounded-0 border-0">
+            <div class="modal-body p-0">
+                <button type="button" class="btn-close position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                <img src="Bilder/nedladdning (3).webp" class="img-fluid w-100" alt="Projekt 2 stor">
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
