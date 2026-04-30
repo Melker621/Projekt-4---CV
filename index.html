@@ -6,26 +6,31 @@
     <title>Melker Celander | Digitalt CV</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="80">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom py-3">
         <div class="container">
-            <a class="navbar-brand fw-bold tracking-wider" href="#">MC</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto text-uppercase small fw-bold">
-                    <li class="nav-item"><a class="nav-link px-3" href="#hem">Hem</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#om-mig">Om mig</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#erfarenhet">Erfarenhet</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#kontakt">Kontakt</a></li>
-                </ul>
-            </div>
+         <a class="navbar-brand fw-bold tracking-wider" href="#">MC</a>
+        
+        <button id="theme-toggle" class="btn btn-link nav-link px-3 order-lg-last" aria-label="Ändra färgschema">
+            <span id="theme-icon">🌙</span>
+        </button>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-uppercase small fw-bold">
+                <li class="nav-item"><a class="nav-link px-3" href="#hem">Hem</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="#om-mig">Om mig</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="#erfarenhet">Erfarenhet</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="#kontakt">Kontakt</a></li>
+            </ul>
+         </div>
         </div>
     </nav>
 
@@ -209,8 +214,7 @@
         <p class="small mb-0">© 2026 MELKER CELANDER | melker.celander@elev.ga.ntig.se</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    
 
 <div class="modal fade" id="modalProj1-1" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -255,5 +259,10 @@
         </div>
     </div>
 </div>
+
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

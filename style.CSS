@@ -1,5 +1,10 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
 
 body {
+    transition: background-color 1s ease, color 1s ease;
     font-family: 'Inter', sans-serif;
     color: #212529;
     line-height: 1.6;
@@ -31,5 +36,38 @@ body {
 }
 
 .progress-bar {
-    background-color: #6c757d !important; /* Grå bar */
+    background-color: #6c757d !important;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+.dark-mode .navbar, 
+.dark-mode .card, 
+.dark-mode .bg-white,
+.dark-mode .bg-light {
+    background-color: #1e1e1e !important;
+    color: #f8f9fa !important;
+}
+
+.dark-mode .nav-link, 
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode h3, 
+.dark-mode h4,
+.dark-mode .text-secondary {
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .border-bottom, 
+.dark-mode .border-start,
+.dark-mode .card {
+    border-color: #333 !important;
+}
+
+.dark-mode .btn-outline-dark {
+    color: #fff;
+    border-color: #fff;
 }
