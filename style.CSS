@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    transition: background-color 1s ease, color 1s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, font-size 0.2s ease;
     font-family: 'Inter', sans-serif;
     color: #212529;
     line-height: 1.6;
@@ -70,4 +70,14 @@ body.dark-mode {
 .dark-mode .btn-outline-dark {
     color: #fff;
     border-color: #fff;
+}
+
+dark-mode .form-control {
+    background-color: #2b2b2b !important;
+    border-color: #444 !important;
+    color: #fff !important;
+}
+
+.dark-mode .form-control::placeholder {
+    color: #aaa;
 }

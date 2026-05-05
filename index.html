@@ -10,14 +10,20 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="80">
+    <div id="scroll-progress" style="height: 4px; background: #0d6efd; position: fixed; top: 0; left: 0; width: 0%; z-index: 9999; transition: width 0.1s;"></div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom py-3">
         <div class="container">
          <a class="navbar-brand fw-bold tracking-wider" href="#">MC</a>
         
-        <button id="theme-toggle" class="btn btn-link nav-link px-3 order-lg-last" aria-label="Ändra färgschema">
-            <span id="theme-icon">🌙</span>
-        </button>
+         <div class="d-flex align-items-center order-lg-last">
+            <button id="font-decrease" class="btn btn-outline-secondary btn-sm me-1 rounded-0" title="Minska text">A-</button>
+            <button id="font-increase" class="btn btn-outline-secondary btn-sm me-2 rounded-0" title="Öka text">A+</button>
+
+            <button id="theme-toggle" class="btn btn-link nav-link px-2" aria-label="Ändra färgschema">
+                <span id="theme-icon">🌙</span>
+            </button>
+        </div>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -48,6 +54,24 @@
     <section id="om-mig" class="py-5 bg-white">
         <div class="container py-5">
             <h2 class="text-center mb-5 fw-light tracking-wide">OM MIG</h2>
+            <div class="mb-5">
+                <p class="lead text-secondary mx-auto mb-4" style="max-width: 750px;">
+                    Jag är en ambitiös teknikstudent med siktet inställt på att förstå hur den digitala världen hänger ihop med den fysiska.
+                    Genom mina studier på Teknikprogrammet vid NTI Helsingborg har jag lagt en stabil grund inom programmering och webbutveckling, men min tekniska nyfikenhet stannar inte vid skolbänken.
+                    Oavsett om det handlar om att bygga datorer, konstruera i CAD eller felsöka kod, är jag den som drivs av att förstå prylarna hela vägen ner till grunden.
+                </p>
+                
+                <p class="lead text-secondary mx-auto mb-4" style="max-width: 750px;">
+                    Som person är jag lugn och metodisk. Jag ser inte tekniska problem som hinder,
+                    utan som utmaningar som kräver tålamod och logiskt tänkande,
+                    jag sitter gärna kvar tills jag hittat en lösning som faktiskt fungerar.
+                </p>
+
+                <p class="lead text-secondary mx-auto mb-5" style="max-width: 750px;">
+                    Utöver tekniken har mina erfarenheter från serviceyrken och rollen som skolambassadör gjort mig till en ansvarsfull och omtänksam lagspelare.
+                    Jag är van vid att kommunicera med olika typer av människor och trivs bäst i miljöer där man samarbetar för att nå gemensamma mål.
+                </p>
+            </div>
             <div class="row g-5">
                 <div class="col-md-4">
                     <h3 class="h5 mb-4 border-bottom pb-2">PERSONLIGT</h3>
