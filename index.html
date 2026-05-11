@@ -33,7 +33,7 @@
                 <li class="nav-item"><a class="nav-link px-3" href="#hem">Hem</a></li>
                 <li class="nav-item"><a class="nav-link px-3" href="#om-mig">Om mig</a></li>
                 <li class="nav-item"><a class="nav-link px-3" href="#erfarenhet">Erfarenhet</a></li>
-                <li class="nav-item"><a class="nav-link px-3" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="#galleri">Galleri</a></li>
                 <li class="nav-item"><a class="nav-link px-3" href="#kontakt">Kontakt</a></li>
             </ul>
          </div>
@@ -47,7 +47,7 @@
             <p class="lead text-secondary mx-auto mb-5" style="max-width: 750px;">
                 Som person är jag lugn och stabil, vilket gör att jag behåller fokus och fattar kloka beslut även i stressiga situationer. Jag är en omtänksam kollega som värnar om teamet.
             </p>
-            <a href="#portfolio" class="btn btn-outline-dark px-4 py-2 rounded-0">SE MINA PROJEKT</a>
+            <a href="#galleri" class="btn btn-outline-dark px-4 py-2 rounded-0">SE MINA PROJEKT</a>
         </div>
     </header>
 
@@ -128,7 +128,7 @@
                     <h3 class="mb-4 fw-light">ARBETSLIVSERFARENHET</h3>
                     <div class="border-start border-2 ps-4 mb-5">
                         <div class="mb-4 position-relative">
-                            <h4 class="h6 mb-1">KOK</h4>
+                            <h4 class="h6 mb-1">KOCK</h4>
                             <p class="small text-primary mb-2">Helsingborgs kommun | Juni 2025 - Juli 2025</p>
                             <p class="text-secondary small">Jobbade på ett ålderdomshem och lagade mat både till boende och andra hem.</p>
                         </div>
@@ -157,9 +157,9 @@
         </div>
     </section>
 
-   <section id="portfolio" class="py-5 bg-white">
+   <section id="galleri" class="py-5 bg-white">
     <div class="container py-5">
-        <h2 class="text-center mb-5 fw-light tracking-wide">PORTFOLIO</h2>
+        <h2 class="text-center mb-5 fw-light tracking-wide">Galleri</h2>
         <div class="row g-4">
             
             <div class="col-md-6">
@@ -209,15 +209,15 @@
 <section id="kontakt" class="py-5 bg-light">
     <div class="container py-5">
         <div class="max-w-700 mx-auto bg-white p-5 shadow-sm">
-            <h2 class="text-center mb-4 fw-light">KONTAKT</h2>
+            <h2 class="text-center mb-4 fw-light">KONTAKTA MIG</h2>
             
             <form action="https://formspree.io/f/maqarajr" method="POST">
                 <div class="row g-3">
                     <div class="col-md-6">
-                        <input type="text" name="name" class="form-control rounded-0" placeholder="Namn" required>
+                        <input type="text" name="name" class="form-control rounded-0" placeholder="Ditt namn" required>
                     </div>
                     <div class="col-md-6">
-                        <input type="email" name="email" class="form-control rounded-0" placeholder="E-post" required>
+                        <input type="email" name="email" class="form-control rounded-0" placeholder="Din e-post" required>
                     </div>
                     <div class="col-md-12">
                         <textarea name="message" class="form-control rounded-0" rows="5" placeholder="Ditt meddelande" required></textarea>
@@ -225,7 +225,7 @@
                     <input type="hidden" name="_subject" value="Nytt meddelande från CV-hemsida">
                     
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-dark w-100 rounded-0 py-3">SKICKA</button>
+                        <button type="submit" onclick="setTimeout(() => { this.form.reset(); }, 10);" class="btn btn-dark w-100 rounded-0 py-3">SKICKA</button>
                     </div>
                 </div>
             </form>

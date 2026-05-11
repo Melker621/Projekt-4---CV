@@ -72,7 +72,7 @@ body.dark-mode {
     border-color: #fff;
 }
 
-dark-mode .form-control {
+.dark-mode .form-control {
     background-color: #2b2b2b !important;
     border-color: #444 !important;
     color: #fff !important;
